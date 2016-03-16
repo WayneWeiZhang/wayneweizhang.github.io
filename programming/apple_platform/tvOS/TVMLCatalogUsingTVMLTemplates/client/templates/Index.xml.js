@@ -20,6 +20,15 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
         <title>Template Examples</title>
       </header>
       <section>
+        <listItemLockup template="${this.BASEURL}templates/Alert.xml.js" presentation="modalDialogPresenter" accessibilityText="Accessible alert template">
+          <title>Alert</title>
+          <relatedContent>
+            <lockup>
+              <img src="${this.BASEURL}resources/images/templates/alert.jpg" width="857" height="482" />
+              <description class="descriptionLayout">An alert template displays a message on screen and asks the user to perform some action, such as confirm a purchase or destructive action.</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
         <listItemLockup template="${this.BASEURL}templates/AlertWithDescription.xml.js" presentation="modalDialogPresenter" accessibilityText="Accessible alert template with description">
           <title>Alert with Description</title>
           <relatedContent>
