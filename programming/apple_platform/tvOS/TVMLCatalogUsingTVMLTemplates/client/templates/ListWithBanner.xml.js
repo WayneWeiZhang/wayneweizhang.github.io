@@ -84,9 +84,6 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
         <listItemLockup>
           <title>Title 7</title>
         </listItemLockup>
-        <listItemLockup>
-          <title>Title 8</title>
-        </listItemLockup>
       </section>
     </list>
   </listTemplate>
